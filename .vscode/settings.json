@@ -1,0 +1,78 @@
+{
+	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.ignorePaths": [
+		"**/node_modules/**",
+		"**/.vscode/extensions.json",
+		".env",
+		"**/dist/**",
+		"**/.svelte-kit/**"
+	],
+	"cSpell.words": ["Cheatsheet"],
+	"css.customData": [".vscode/tailwind.json"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.rulers": [120],
+	"eslint.codeActionsOnSave.mode": "all",
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"files.associations": {
+		"**/*.css": "tailwindcss",
+		"**/*.postcss": "tailwindcss",
+		"*.eslintrc": "json",
+		"*.json": "json",
+		"*.prettierrc": "json",
+		"*.webmanifest": "json"
+	},
+	"npm.packageManager": "pnpm",
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"vsicons.associations.files": [
+		{
+			"extensions": ["settings.json", "setting.json", "extensions.json", "extension.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "vscode"
+		},
+		{
+			"extensions": ["package.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "node"
+		},
+		{
+			"extensions": ["tsbuildinfo"],
+			"format": "svg",
+			"icon": "tsconfig_official",
+			"overrides": "tsbuildinfo"
+		},
+		{
+			"extensions": ["env.mjs"],
+			"filename": true,
+			"format": "svg",
+			"icon": "config",
+			"overrides": "mjs"
+		},
+		{
+			"extensions": ["svelte.config.js"],
+			"filename": true,
+			"format": "svg",
+			"icon": "svelte",
+			"overrides": "js"
+		}
+	],
+	"vsicons.associations.folders": [
+		{
+			"extensions": ["constants", "constant"],
+			"format": "svg",
+			"icon": "binary",
+			"overrides": "constant"
+		}
+	],
+	"vsicons.presets.tsOfficial": true
+}
